@@ -30,6 +30,8 @@ const init = () => {
     }
     curChart = new Chart(ctx, optionsDevPie);
   });
+
+  curChart = new Chart(ctx, optionsDevBar);
 };
 
 window.addEventListener("load", init);
